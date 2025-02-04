@@ -1,0 +1,30 @@
+
+.img_pk{
+    float: right;
+    width: 11%;
+}
+h1{
+    font-size: 25px;
+}
+h1:hover{
+   
+    
+    background: rgb(0, 213, 255);
+    transition: 1s ;
+}
+.mem{
+    
+  text-decoration: none;
+  color:black;
+ border-radius:20px ;
+ 
+  background: rgb(54, 250, 116);
+  
+  cursor: pointer;
+    text-align: center;
+}
+.mem:hover{
+    border: 1px solid green;
+    background: rgb(0, 213, 255);
+    transition: 1s ;
+}

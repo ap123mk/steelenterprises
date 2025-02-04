@@ -1,0 +1,51 @@
+
+.tech{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+    padding: 7px;
+}
+.teacher{
+    width: 80%;
+    margin: auto;
+    color: brown;
+    text-align: center;
+    padding-top: 80px;
+    display: inline-block;
+    padding: 12px 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    position: relative;
+}
+h1{
+    height: 30%;
+    font-size: 30px;
+}
+.h1:hover{
+    border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s ;
+}
+.first{
+    width: 80%;
+    margin: auto;
+    color: brown;
+    text-align: center;
+    padding-top: 80px;
+    display: inline-block;
+    padding: 12px 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    position: relative;
+}
+.second{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}

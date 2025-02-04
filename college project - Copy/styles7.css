@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background-image:url('bk7.jpeg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+      backdrop-filter: blur 20px;
+        
+}
+.logo{
+    
+}
+h1{
+    margin-top: 1%;
+    color: grey;
+}
+.fnt{
+    mix-blend-mode: multiply;
+    margin-top: 1%;
+}
+h3{
+   color: rgb(6, 179, 226);
+    margin: 2%;
+}
+.input{
+    display: flex;gap: 5%;
+    margin: 3%;
+    border-radius: 25px;
+}
+.num{
+    display: flex;gap: 5%;
+    margin: 3%;
+}
+.state{
+    display: flex;gap: 5%;
+    margin: 3%;
+}
+.agreement{
+    
+    margin: 3%;
+}
+.butn{
+   
+    margin: 3%;
+}
+.sem h1{
+    text-align: center;
+    color: rgb(9, 205, 245);
+}
+section{
+    background-color: grey;
+    margin-top: 2%;
+display: flex;gap: 6%;
+flex-wrap: wrap;
+}
+.sub h2{
+    color: white;
+}
+.sub ul li{
+    color: white;
+}
+@media only screen and (max-width: 600px){
+    h1 u{
+        color: orangered;
+        font-size: 16px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    input{
+        width: 100px;
+    }
+    .agreement pre{
+        font-size: 9px;
+    }
+    .fnt{
+        box-sizing: border-box;
+        color: white;
+        margin-top: 2%;
+    }
+    body{
+        background-image: url(bk7.jpeg);
+    max-width:100%;
+    
+    
+    }
+}
